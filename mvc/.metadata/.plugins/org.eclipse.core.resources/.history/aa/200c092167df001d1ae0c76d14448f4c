@@ -1,0 +1,1 @@
+managament.endpoints.web.exposure.include=health,info,beans

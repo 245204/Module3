@@ -1,0 +1,44 @@
+package com.ust.rest.repository;
+
+import java.math.BigDecimal;
+import java.util.ArrayList;
+
+import com.ust.rest.resource.Product;
+
+public class ProductRepository {
+	private ArrayList<Product> productCache=new ArrayList<>();
+	
+	public ProductRepository() {
+	Product p1=new Product();
+	p1.setProductId(101);
+	p1.setName("Laptop");
+	p1.setDescription("MacBook Retina Eye");
+	p1.setPrice(new BigDecimal(180000));
+	p1.setQty(5);
+	productCache.add(p1);
+	
+	Product p2=new Product();
+	p1.setProductId(102);
+	p1.setName("Tablet");
+	p1.setDescription("Samsung max view");
+	p1.setPrice(new BigDecimal(35000));
+	p1.setQty(10);
+	productCache.add(p2);
+	
+	Product p3=new Product();
+	p1.setProductId(103);
+	p1.setName("Mobile");
+	p1.setDescription("iPhone");
+	p1.setPrice(new BigDecimal(75000));
+	p1.setQty(7);
+	productCache.add(p3);
+	
+	}
+	
+	public boolean addProduct(Product product) {
+		return productCache.add(product);
+		
+	}
+	
+
+}

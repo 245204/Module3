@@ -1,0 +1,10 @@
+package com.ust.ioc;
+
+public class Connection {
+
+//	public static Connection getConnection() {
+		//........many steps
+		System.out.println("Connection called");
+		return new Connection();
+	}
+}

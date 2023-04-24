@@ -1,0 +1,9 @@
+package com.ust.ioc;
+
+public class TestLogin {
+	Login login=new Login();
+	login.setUsername("JohnDoe");
+	login.setPassword("winnyminny");
+	
+
+}

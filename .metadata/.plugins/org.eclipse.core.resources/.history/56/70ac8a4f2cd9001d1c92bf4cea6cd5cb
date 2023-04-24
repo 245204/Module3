@@ -1,0 +1,26 @@
+package practice;
+
+import java.util.Scanner;
+
+public class pra2 {
+	public static void main(String[] args) {
+		int a[]= {1,2,3,4,5,6};
+		int len=a.length;
+		int half=len/2;
+		if(len%2==0) {
+			int median=(a[half]+a[half-1]);
+			System.out.println(median);
+			
+		}else {
+			System.out.println(a[half]);
+			
+		}
+		
+		
+		
+	}
+	
+	
+	
+
+}
