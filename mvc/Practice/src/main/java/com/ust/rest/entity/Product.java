@@ -1,0 +1,30 @@
+package com.ust.rest.entity;
+
+
+
+public class Produc {
+	private String name;
+	private int qty;
+	public Product() {
+		// TODO Auto-generated constructor stub
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getQty() {
+		return qty;
+	}
+	public void setQty(int qty) {
+		this.qty = qty;
+	}
+	public Product(String name, int qty) {
+		super();
+		this.name = name;
+		this.qty = qty;
+	}
+	
+
+}
